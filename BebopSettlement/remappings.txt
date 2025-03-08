@@ -1,0 +1,6 @@
+forge-std/=lib/forge-std/src/
+lib/openzeppelin-contracts/=lib/openzeppelin-contracts/
+src/interface/=src/interface/
+src/libs/=src/libs/
+src/BebopSettlement.sol/=src/BebopSettlement.sol/
+src/base/=src/base/
