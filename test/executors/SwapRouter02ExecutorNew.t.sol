@@ -9,7 +9,7 @@ import {console} from "forge-std/console.sol";
 import {SwapRouter02ExecutorNew} from "src/sample-executors/SwapRouter02ExecutorNew.sol";
 import {MockERC20} from "../util/mock/MockERC20.sol";
 import {IReactor} from "src/interfaces/IReactor.sol";
-import {IBebopSettlement} from "../../BebopSettlement/src/interface/IBebopSettlement.sol";
+import {IBebopSettlement} from "BebopSettlement/src/interface/IBebopSettlement.sol";
 import {WETH} from "solmate/src/tokens/WETH.sol";
 import {IPermit2} from "permit2/src/interfaces/IPermit2.sol";
 import {PermitSignature} from "../util/PermitSignature.sol";

@@ -9,11 +9,11 @@ import {IReactorCallback} from "../interfaces/IReactorCallback.sol";
 import {IReactor} from "../interfaces/IReactor.sol";
 import {CurrencyLibrary} from "../lib/CurrencyLibrary.sol";
 import {ResolvedOrder, SignedOrder} from "../base/ReactorStructs.sol";
-import {Order} from "../../BebopSettlement/src/libs/Order.sol";
-import {Signature} from "../../BebopSettlement/src/libs/Signature.sol";
+import {Order} from "BebopSettlement/src/libs/Order.sol";
+import {Signature} from "BebopSettlement/src/libs/Signature.sol";
 import {ISwapRouter02} from "../external/ISwapRouter02.sol";
-import {IBebopSettlement} from "../../BebopSettlement/src/interface/IBebopSettlement.sol";
-import {Transfer} from "../../BebopSettlement/src/libs/Transfer.sol";
+import {IBebopSettlement} from "BebopSettlement/src/interface/IBebopSettlement.sol";
+import {Transfer} from "BebopSettlement/src/libs/Transfer.sol";
 
 /// @notice A fill contract that uses SwapRouter02 to execute trades
 contract SwapRouter02ExecutorNew is IReactorCallback, Owned {
