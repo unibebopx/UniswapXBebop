@@ -13,3 +13,6 @@
 [submodule "lib/solarray"]
 	path = lib/solarray
 	url = https://github.com/evmcheb/solarray
+[submodule "BebopSettlement/lib/forge-std"]
+	path = BebopSettlement/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
